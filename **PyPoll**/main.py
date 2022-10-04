@@ -3,10 +3,10 @@ import csv
 import os
 
 # Specify the file to open and create to
-file_to_load = os.path.join("..", '**PyPoll**', 'election_data.csv')
+file_to_load = os.path.join('-python-challenge-', '**PyPoll**', 'election_data.csv')
 
 # Specify the file to export text file to
-file_to_output = os.path.join("..", '**PyPoll**', 'election_analysis.txt')
+file_to_output = os.path.join('-python-challenge-', '**PyPoll**', 'election_analysis.txt')
 
 # Total Vote Counter
 total_votes = 0

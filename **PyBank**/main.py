@@ -3,10 +3,10 @@ import os
 import csv
 
 # Specify the file to open and create to
-budget_data = os.path.join("PyBank/Resources/budget_data.csv")
+budget_data = os.path.join('-python-challenge-', '**PyBank**', 'budget_data.csv')
 
 # Specify the file to export text file to
-text_path = os.path.join("PyBank, analysis, budget_analysis.txt")
+text_path = os.path.join('-python-challenge-', '**PyBank**', 'budget_analysis.txt')
 
 # Tracking various financial parameters
 total_months = 0
